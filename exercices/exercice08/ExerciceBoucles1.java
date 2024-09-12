@@ -7,7 +7,8 @@ public class ExerciceBoucles1 {
            // grâce à cette ligne if je dis que si f  est égal à trois alors avant d'afficher le
            // sout on ajoute 1 
             if (f ==3) { 
-                f++;
+                continue;
+               // moi j'ai fait if f==3 alors f++; juste mais pas optimal pour long code
                 
             }
             System.out.println("Boucle for, f : " + f);
