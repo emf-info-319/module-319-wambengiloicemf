@@ -21,7 +21,8 @@ public class Devoir02 {
 
         while (reservoirA + reservoirB < remplissage) { 
             reservoirA++; remplissage--; 
-            System.out.println(reservoirA + reservoirB);
+            System.out.println("reservoir a et b : " + reservoirA + reservoirB);
+            System.out.println("reservoir de remplissage "+remplissage );
             if (reservoirA == 3) { 
                 reservoirB++ ; remplissage--;
                 
