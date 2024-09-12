@@ -6,10 +6,18 @@ public class Devoir02 {
 
     public static void main(String[] args) {
 
-        int reservoirA = 0 ;
-        int reservoirB = 0 ;
-    
-        int remplissage;
+        int reservoirA = 0;
+        int reservoirB = 0;
+
+        int MIN = 30;
+        int MAX = 120;
+
+        int remplissage = 8;
+
+        int nombre = (int) (Math.random() * (MAX - MIN + 1)) + MIN;
+
+        System.out.println(remplissage);
+        // reprendre ligne 13
     }
 
 }
