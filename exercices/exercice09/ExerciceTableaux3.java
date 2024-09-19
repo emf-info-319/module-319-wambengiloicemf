@@ -6,15 +6,18 @@ public class ExerciceTableaux3 {
 
         int[] montab = new int[10]; // déclaration du tableau
 
-        int total = 0;
+        int total;
+        int total2 = 0;
 
         for (int i = 0; i < montab.length; i++) {
             int random = (int) (Math.random() * (MAX - MIN + 1)) + MIN;
             montab[i] = random; // le i changeant de valeur permet d'assigner à chaque tour de boucle une
                                 // nouvelle valeur à une case incrementer de 1
             System.out.println(i);
-            int tt = total + random;
-            System.out.println("Total actuel" + tt);
+
+            total + random;
+// j'arrive vraiment pas à trouver un moyen d'additioner les résultats random
+            System.out.println("Total actuel" + total);
         }
 
         // trouver la moyenne => total / nombreNote
