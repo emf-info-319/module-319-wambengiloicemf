@@ -22,3 +22,13 @@ N’utilisez que des instructions « if », « else », « switch », « case »
 
 ## Restitution du devoir
 Faites un commit/push avant la date limite fixée par votre enseignant.
+
+
+logique 1 ma logique de base 
+
+365 jour de l'année tu calcule en faisant une soustraction mais comment trouver le nombre de jour 
+
+
+logique 2 celle qu'on a vu en cours 
+
+ou je fais un tableau qui contient le nombre de jour d'un mois donnée et qui asjoute ça a la date 
