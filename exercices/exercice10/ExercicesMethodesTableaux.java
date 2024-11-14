@@ -3,7 +3,7 @@ public class ExercicesMethodesTableaux {
 
     public static void main(String[] args) {
 
-        int valeurTailleTab = 50;
+        int valeurTailleTab = 5;
         int[] monTab = creerTab(valeurTailleTab);
 
         // Affichage de la taille du tableau pour vérifier
@@ -13,8 +13,8 @@ public class ExercicesMethodesTableaux {
         remplirTab(monTab);
 
         // Affichage des valeurs du tableau pour vérifier son contenu
-        for (int valeur : monTab) {
-            System.out.print(valeur + " ");
+        for (int index = 0; index < monTab.length; index++) {
+            System.out.println("Chiffre de mon tableau " + monTab[index] + " !");
         }
 
         remplissageAleatoire(monTab, 20, 1);
@@ -161,15 +161,15 @@ public class ExercicesMethodesTableaux {
 
     // Méthode 10 //
 
-    public static int moyenneTableau(int[] tableau) {
+    public static double moyenneTableau(int[] tableau) {
 
-        int somme = 0;
+        double somme = 0;
         for (int index = 0; index < tableau.length; index++) {
             somme = somme + tableau[index];
 
         }
 
-        int moyenne = somme / tableau.length;
+        double moyenne = somme / tableau.length;
 
         System.out.println("Moyenne  " + moyenne);
 
@@ -198,7 +198,6 @@ public class ExercicesMethodesTableaux {
 
         for (int index = 0; index < tableau.length; index++) {
             if (chiffreCherche == tableau [index] ) {
-
                 int retour = index;
                 System.out.println("La valeur " + chiffreCherche +  " a été trouvée la première fois à la position N° "+ retour );
                 return retour ;
